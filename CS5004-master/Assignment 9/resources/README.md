@@ -1,4 +1,10 @@
 CS5004- Easy Animator
+(Collaborated with Victorya Rockingster)
+
+The Easy Animator is an MVC based Java program that takes in a text file that contains instructions on what an animation should look like in a suitable format and then outputs the animation.
+
+How to see the animation: Run the JAR file following the given example: "-in hanoi.txt -view visual -speed 24" (this would be the command line argument). Substitute "hanoi.txt" with any suitable txt file. If run correctly, the animation should appear in a separate window.
+
 Overview of Design
 There are two interfaces- AnimationModel and IShape. Since the model stores all the attributes of the object at each point in time, it has methods to manipulate and add objects to the animation. IShape is a common interface for all kinds of shapes such as rectangles, triangles and ovals. Adding a new shape is as easy as extending the abstract class that implements IShape.
 
